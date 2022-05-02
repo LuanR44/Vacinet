@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vacinet">
         <activity
+            android:name=".telaVacinaGestantesT"
+            android:exported="false" />
+        <activity
             android:name=".TelaMenuSobre"
             android:exported="false" />
         <activity
