@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet-Git/app/src/main/res/layout/activity_tela_menu_sobre.xml" value="0.125" />
+        <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet-Git/app/src/main/res/layout/activity_tela_menu_vacinas.xml" value="0.125" />
+        <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet-Git/app/src/main/res/layout/activity_tela_vacina_adultos.xml" value="0.2" />
+        <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet-Git/app/src/main/res/layout/activity_tela_vacina_gestantes.xml" value="0.264" />
+        <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet-Git/app/src/main/res/layout/activity_tela_vacina_indigenas.xml" value="0.125" />
         <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet/app/src/main/res/layout/activity_tela_menu_vacinas.xml" value="0.264" />
         <entry key="..\:/Users/Ls/AndroidStudioProjects/Vacinet/app/src/main/res/layout/activity_tela_vacina_adultos.xml" value="0.2" />
