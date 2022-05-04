@@ -11,24 +11,31 @@
         android:theme="@style/Theme.Vacinet">
         <activity
             android:name=".telaVacinaGestantesT"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".TelaMenuSobre"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".TelaVacinaIndigenas"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".telaVacinaGestantes"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".telaVacinaAdultos"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".telaMenuVacinas"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

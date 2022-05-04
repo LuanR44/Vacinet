@@ -9,6 +9,7 @@ public class TelaVacinaIndigenas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_tela_vacina_indigenas);
     }
 }
