@@ -26,5 +26,25 @@ public class telaVacinaGestantes extends AppCompatActivity {
                 startActivity(vacT);
             }
         });
+
+        botaoVacinaH = findViewById(R.id.bntGestantesHepatiteB);
+
+        botaoVacinaH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent vacHB = new Intent(getApplicationContext(), telaVacinaGestantesHB.class);
+                startActivity(vacHB);
+            }
+        });
+
+        botaoVacinaI = findViewById(R.id.bntGestantesInfluenza);
+
+        botaoVacinaI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent vacIF = new Intent(getApplicationContext(),telaVacinaGestantesIF.class);
+                startActivity(vacIF);
+            }
+        });
     }
 }

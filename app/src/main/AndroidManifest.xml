@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vacinet">
         <activity
+            android:name=".telaVacinaGestantesIF"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".telaVacinaGestantesHB"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".TelaVacinaAdultosPV"
             android:exported="false"
             android:screenOrientation="portrait" />
