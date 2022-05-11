@@ -7,7 +7,7 @@
     tools:context=".telaVacinaAdultos">
 
     <Button
-        android:id="@+id/bntAdultos6"
+        android:id="@+id/bntVacinaAdultoPV"
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
@@ -22,7 +22,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bntAdultos5"
+        android:id="@+id/bntVacinaAdultoFA"
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
@@ -37,7 +37,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bntAdultos4"
+        android:id="@+id/bntVacinaAdultoTV"
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
@@ -52,7 +52,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bntAdultos3"
+        android:id="@+id/bntVacinaAdultoDT"
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
@@ -67,7 +67,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/bntAdultos2"
+        android:id="@+id/bntVacinaAdultoHB"
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
