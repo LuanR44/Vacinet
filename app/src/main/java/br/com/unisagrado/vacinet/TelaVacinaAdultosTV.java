@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.pdfview.PDFView;
+
 public class TelaVacinaAdultosTV extends AppCompatActivity {
 
     @Override
@@ -11,5 +13,8 @@ public class TelaVacinaAdultosTV extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_tela_vacina_adultos_tv);
+
+        PDFView pdfView = findViewById(R.id.pdfView);
+        pdfView.fromAsset("Influenza.pdf").show();
     }
 }

@@ -41,7 +41,7 @@
         android:layout_width="321dp"
         android:layout_height="102dp"
         android:backgroundTint="#3C4F7C"
-        android:text="Tríplice bacteriana"
+        android:text="DTPa (Difteria, Tétano e Coqueluche)"
         android:textSize="20sp"
         app:cornerRadius="22dp"
         app:layout_constraintBottom_toBottomOf="parent"

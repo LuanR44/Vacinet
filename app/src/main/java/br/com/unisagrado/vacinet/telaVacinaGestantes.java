@@ -22,7 +22,7 @@ public class telaVacinaGestantes extends AppCompatActivity {
         botaoVacinaT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vacT = new Intent(getApplicationContext(), telaVacinaGestantesT.class);
+                Intent vacT = new Intent(getApplicationContext(), TelaVacinaAdultosDT.class);
                 startActivity(vacT);
             }
         });
@@ -32,7 +32,7 @@ public class telaVacinaGestantes extends AppCompatActivity {
         botaoVacinaH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vacHB = new Intent(getApplicationContext(), telaVacinaGestantesHB.class);
+                Intent vacHB = new Intent(getApplicationContext(), TelaVacinaAdultosHB.class);
                 startActivity(vacHB);
             }
         });
@@ -42,7 +42,7 @@ public class telaVacinaGestantes extends AppCompatActivity {
         botaoVacinaI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vacIF = new Intent(getApplicationContext(),telaVacinaGestantesIF.class);
+                Intent vacIF = new Intent(getApplicationContext(),TelaVacinaAdultosTV.class);
                 startActivity(vacIF);
             }
         });
