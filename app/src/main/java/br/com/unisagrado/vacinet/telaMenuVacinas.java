@@ -42,8 +42,8 @@ public class telaMenuVacinas extends AppCompatActivity {
         botaoI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaIn = new Intent(getApplicationContext(), TelaVacinaIndigenas.class);
-                startActivity(telaIn);
+                Intent telaAd = new Intent(getApplicationContext(), telaVacinaAdultos.class);
+                startActivity(telaAd);
             }
         });
 
