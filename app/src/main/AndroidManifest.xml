@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vacinet">
         <activity
+            android:name=".telaCalendarioG"
+            android:exported="false" />
+        <activity
+            android:name=".telaSobreRefVac"
+            android:exported="false" />
+        <activity
+            android:name=".telaSobreRef"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".telaVacinaGestantesIF"
             android:exported="false"
             android:screenOrientation="portrait" />

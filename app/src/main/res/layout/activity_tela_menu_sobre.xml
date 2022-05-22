@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.694" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnref"
         android:layout_width="210dp"
         android:layout_height="68dp"
         android:backgroundTint="#3C4F7C"

@@ -1,5 +1,6 @@
 package br.com.unisagrado.vacinet;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -16,5 +17,12 @@ public class TelaVacinaAdultosTV extends AppCompatActivity {
 
         PDFView pdfView = findViewById(R.id.pdfView);
         pdfView.fromAsset("Influenza.pdf").show();
+
+        AlertDialog.Builder ok = new AlertDialog.Builder(TelaVacinaAdultosTV.this);
+        ok.setTitle("Sugestão");
+        ok.setMessage("Caso esteja difícil de visualizar por conta do tamanho, utilize o zoom do seu aparelho!");
+        ok.setCancelable(false);
+        ok.setNegativeButton("ok",null);
+        ok.create().show();
     }
 }
