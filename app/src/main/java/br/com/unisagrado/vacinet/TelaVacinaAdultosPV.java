@@ -16,7 +16,7 @@ public class TelaVacinaAdultosPV extends AppCompatActivity {
         setContentView(R.layout.activity_tela_vacina_adultos_pv);
 
         PDFView pdfView = findViewById(R.id.pdfView);
-        pdfView.fromAsset("Pneumocócica 23-valente.pdf").show();
+        pdfView.fromAsset("Pneumocócica 23-Valente.pdf").show();
 
         AlertDialog.Builder ok = new AlertDialog.Builder(TelaVacinaAdultosPV.this);
         ok.setTitle("Sugestão");
